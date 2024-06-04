@@ -51,23 +51,23 @@ Banco Solar es una aplicación web que permite gestionar usuarios y realizar tra
 
 ## Estructura del Proyecto
 
+```plaintext
 banco-solar/
-│
 ├── node_modules/
 ├── views/
-│ ├── index.html
+│   ├── index.html
 ├── config/
-│ └── db.js
+│   └── db.js
 ├── controllers/
-│ ├── usersController.js
-│ └── transfersController.js
+│   ├── usersController.js
+│   └── transfersController.js
 ├── routes/
-│ ├── usersRoutes.js
-│ └── transfersRoutes.js
+│   ├── usersRoutes.js
+│   └── transfersRoutes.js
 ├── index.js
 ├── models/
-│ ├── userQueries.js
-│ └── transferQueries.js
+│   ├── userQueries.js
+│   └── transferQueries.js
 ├── .env.example
 ├── package.json
 └── package-lock.json
